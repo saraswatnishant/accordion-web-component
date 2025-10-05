@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Accordion Web Component</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <custom-accordion accordion>
+        <accordion-item>
+            <span slot="title">What is Lorem Ipsum?</span>
+            <span slot="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+        </accordion-item>
+
+        <accordion-item>
+            <span slot="title">Where does it come from?</span>
+            <span slot="content">It comes from classical Latin literature from 45 BC.</span>
+        </accordion-item>
+
+        <accordion-item>
+            <span slot="title">Why do we use it?</span>
+            <span slot="content">It helps designers focus on layout instead of readable text.</span>
+        </accordion-item>
+    </custom-accordion>
+</body>
+<script>
+
+    // const accordion = document.querySelector("custom-accordion");
+    // setTimeout(() => {
+    //     accordion.setAttribute("accordion", true);
+    //     console.log("accordion", accordion);
+    // }, 3000)
+</script>
+
+</html>
